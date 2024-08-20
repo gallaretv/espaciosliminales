@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacios Liminales</title>
+    <!-- Incorporando Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Selectores */
+        body {
+            background-color: #1c1c1c; /* Color de fondo azul grisáceo más oscuro */
+            color: #e0f2f1; /* Color de texto azul agaricáceo claro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #80cbc4; /* Color de texto del título principal */
+            text-align: center; /* Centrar el texto */
+        }
+        h2 {
+            color: #4db6ac; /* Color de texto de los subtítulos */
+        }
+        p {
+            color: #b2dfdb; /* Color de texto de los párrafos */
+        }
+        
+        /* Clase para modificar el tamaño del texto */
+        .large-text {
+            font-size: 1.5em;
+        }
+        
+        /* ID para modificar el tipo de letra */
+        #custom-font {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Estilo del menú de navegación */
+        nav {
+            background-color: #004d40; /* Color de fondo del menú */
+            width: 100%;
+            height: 50px;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #e0f2f1;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #37474f; /* Color de fondo al pasar el ratón */
+        }
+
+        /* Estilo de la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #4db6ac; /* Borde azul agaricáceo */
+            text-align: center; /* Centrar el texto */
+        }
+        th {
+            background-color: #004d40; /* Color de fondo del encabezado azul agaricáceo oscuro */
+            color: #e0f2f1; /* Color de texto claro */
+        }
+        tr:nth-child(even) {
+            background-color: #263238; /* Color de fondo de filas alternas azul agaricáceo oscuro */
+        }
+        tr:hover {
+            background-color: #37474f; /* Color de fondo al pasar el ratón */
+        }
+
+        /* Agrupación de selectores tipo id y class */
+        #custom-font, .custom-style {
+            color: #ffab91; /* Color de texto personalizado */
+            font-size: 1.2em;
+        }
+
+        /* Selectores descendientes */
+        ul.descendant-list li {
+            list-style-type: circle;
+            color: #80cbc4;
+        }
+        ul.descendant-list li:hover {
+            color: #ffab91; /* Color al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Espacios Liminales</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#descripcion">Descripción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#temas">Temas y Subtemas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info-personal">Información Personal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#autor">Autor</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tabla">Tabla</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Espacios Liminales</h1>
+
+    <h2 id="descripcion" class="large-text">Descripción</h2>
+    <p id="custom-font">
+        Este sitio web está dedicado a explorar y discutir los espacios liminales. Los espacios liminales son
+        lugares o estados de transición, donde uno está entre lo que era y lo que está por venir. Son
+        metafóricamente los umbrales entre dos fases de existencia, generando un sentimiento de
+        ambigüedad y cambio.
+    </p>
+
+    <h2 id="temas" class="large-text">Temas y Subtemas</h2>
+    <ul class="descendant-list">
+        <li>Definición de Espacios Liminales</li>
+        <li>Ejemplos de Espacios Liminales</li>
+        <li>Impacto Psicológico de los Espacios Liminales</li>
+        <li>Exploraciones Artísticas de lo Liminal</li>
+        <li>Espacios Liminales en la Cultura Popular</li>
+    </ul>
+
+    <h2 id="info-personal" class="large-text">Información Personal</h2>
+    <p class="custom-style">
+        Nombre: Victoria Landazabal<br>
+        Contacto: +57 302 8619433<br>
+        Correo: avictorialrodriguez@gmail.com<br>
+        Institución: skolmi
+    </p>
+
+    <h2 id="autor">Autor del Sitio Web</h2>
+    <img src="mi-imagen.jpg" 
+
+    <!-- Tabla estilizada con Bootstrap -->
+    <h2 id="tabla" class="large-text">Tabla de Ejemplos de Espacios Liminales</h2>
+    <table class="table table-bordered">
+        <tr>
+            <th>Espacio Liminal</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>Puentes</td>
+            <td>Estructuras que conectan dos lugares, simbolizando el paso de un estado a otro.</td>
+            <td>Puente Golden Gate</td>
+        </tr>
+        <tr>
+            <td>Pasillos</td>
+            <td>Espacios de tránsito entre habitaciones o edificios, a menudo sin una identidad propia.</td>
+            <td>Pasillo en un hospital</td>
+        </tr>
+        <tr>
+            <td>Atardeceres</td>
+            <td>Transición entre el día y la noche, marcando el fin de una jornada y el inicio de la siguiente.</td>
+            <td>Atardecer en la playa</td>
+        </tr>
+        <tr>
+            <td>Estaciones de tren</td>
+            <td>Lugares donde las personas esperan para viajar, simbolizando un punto de partida o llegada.</td>
+            <td>Estación Central de Nueva York</td>
+        </tr>
+    </table>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacios Liminales</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #e0f2f1;
+        }
+
+        /* Estilo del header */
+        header {
+            background-color: #003d33; /* Verde oscuro */
+            color: #e0f2f1;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Estilo del nav */
+        nav {
+            background-color: #004d40; /* Verde ligeramente más claro que el header */
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #e0f2f1;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #00695c; /* Verde más claro para el hover */
+            border-radius: 5px;
+        }
+
+        /* Estilo de la sección principal */
+        section {
+            padding: 20px;
+            box-sizing: border-box;
+            width: 65%;
+            float: left;
+            background-color: #00251a; /* Verde oscuro */
+        }
+
+        /* Estilo del aside */
+        aside {
+            padding: 20px;
+            box-sizing: border-box;
+            width: 30%;
+            float: right;
+            background-color: #00362f; /* Verde más oscuro */
+            color: #b2dfdb;
+        }
+
+        /* Limpiar flotantes */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo del footer */
+        footer {
+            background-color: #00251a; /* Verde muy oscuro */
+            color: #e0f2f1;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            clear: both;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header estilizado con Bootstrap -->
+    <header class="bg-light text-center py-5 mb-4">
+        <div class="container">
+            <h1 class="font-weight-light">Espacios Liminales</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#temas">Temas y Subtemas</a></li>
+            <li><a href="#info-personal">Información Personal</a></li>
+            <li><a href="#autor">Autor</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+        </ul>
+    </nav>
+
+    <div class="clearfix">
+        <section>
+            <p>Definición de Espacios Liminales:Los espacios liminales son zonas de transición, estados intermedios donde uno está entre lo que fue y lo que será. Este concepto, que tiene su origen en la antropología, se refiere a esos momentos y lugares que no son completamente uno ni otro, como el amanecer o el crepúsculo, y espacios como los pasillos o las estaciones de trenes vacías.
+                <p>Ejemplos de Espacios Liminales
+                    Los espacios liminales pueden encontrarse en una variedad de contextos, tanto físicos como metafóricos. Los ejemplos incluyen cruces de caminos, puentes, pasillos largos, puertas, y escaleras. En un sentido metafórico, se puede considerar una transición en la vida, como la adolescencia, como un espacio liminal.
+                    
+                    Otros ejemplos incluyen:
+                    
+                    Escaleras que conectan diferentes niveles en un edificio
+                    Las salas de espera en aeropuertos o estaciones de tren
+                    Los vestíbulos de hoteles
+                    Intersecciones de caminos rurales
+                    <p>Impacto Psicológico de los Espacios Liminales
+                        Los espacios liminales pueden evocar una amplia gama de emociones. A menudo, pueden hacer que las personas se sientan incómodas debido a su naturaleza intermedia e indefinida. Esta ambigüedad puede provocar ansiedad, pero también puede ser una fuente de creatividad e inspiración, ya que estos 
+                        espacios pueden fomentar la reflexión sobre el cambio y la transformación.
+                        
+                        Algunas personas experimentan sensaciones de desorientación o nostalgia al estar en un espacio liminal, ya que estos espacios pueden parecer "fuera del tiempo" y desconectados de la realidad cotidiana.Impacto Psicológico de los Espacios Liminales
+                        Los espacios liminales pueden evocar una amplia gama de emociones. A menudo, pueden hacer que las personas se sientan incómodas debido a su naturaleza intermedia e indefinida. Esta ambigüedad puede provocar ansiedad, pero también puede ser una fuente de creatividad e inspiración, ya que estos 
+                        espacios pueden fomentar la reflexión sobre el cambio y la transformación.
+                        
+                        Algunas personas experimentan sensaciones de desorientación o nostalgia al estar en un espacio liminal, ya que estos espacios pueden parecer "fuera del tiempo" y desconectados de la realidad cotidiana. 
+                        <p>Exploraciones Artísticas de lo Liminal
+                            El concepto de lo liminal ha sido explorado extensamente en las artes visuales, la literatura, y el cine. Los artistas a menudo utilizan estos espacios como metáforas para el cambio, la incertidumbre, o la transición. En el cine, los espacios liminales como los corredores de hoteles, los
+                             estacionamientos vacíos, y las ciudades desiertas a menudo se utilizan para crear una atmósfera de misterio o suspense.
+                            
+                            Ejemplos en la literatura incluyen obras donde los protagonistas se encuentran en un viaje, no solo físico sino también existencial, pasando por diferentes "umbrales" en su desarrollo personal. 
+                            <p>Exploraciones Artísticas de lo Liminal
+                                El concepto de lo liminal ha sido explorado extensamente en las artes visuales, la literatura, y el cine. Los artistas a menudo utilizan estos espacios como metáforas para el cambio, la incertidumbre, o la transición. En el cine, los espacios liminales como los corredores de hoteles, 
+                                los estacionamientos vacíos, y las ciudades desiertas a menudo se utilizan para crear una atmósfera de misterio o suspense.
+                                
+                                Ejemplos en la literatura incluyen obras donde los protagonistas se encuentran en un viaje, no solo físico sino también existencial, pasando por diferentes "umbrales" en su desarrollo personal. 
+                                <p>Espacios Liminales en la Cultura Popular
+                                    En la cultura popular, los espacios liminales se han vuelto un tema recurrente, especialmente en géneros como el horror y la ciencia ficción. Estos espacios se utilizan para crear una sensación de dislocación o inquietud, ya que a menudo son lugares donde las reglas normales de 
+                                    la realidad no se aplican completamente.
+            </ul>
+        </section>
+
+                            
+                            El concepto de "liminalidad" ha sido popularizado en parte 
+        <aside>
+            <h2>Información Adicional</h2>
+            <p>los  espacios liminales  y  el  fenomeno de  la  liminanalidad  general  adquirio  foco  y  nombre  gracias   ala   aparicion  de  de la  image  de  los  cuartis  amarillos de los  backrooms  en  el  froro  de terror four chan  .</p>
+        </aside>
+    </div>
+
+    <!-- Footer estilizado con Bootstrap -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Espacios Liminales. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
